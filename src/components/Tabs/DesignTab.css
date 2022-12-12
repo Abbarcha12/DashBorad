@@ -1,0 +1,131 @@
+.design-container{
+    background-color: white;
+
+}
+.design-icon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    background-color: white;
+}
+.design-icon svg{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+hr{
+    margin: 0;
+}
+.design-fig{
+    display: flex;
+    
+}
+.design-fig p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    margin: 0px auto;
+    margin-left: 0.7rem !important;
+}
+.design-number{
+    display: flex;
+    margin: 0.6rem;
+    margin-left: 1rem;
+    justify-content: flex-end;
+}
+.design-number2{
+    display: flex;
+    margin: 0.6rem;
+    text-align: end;
+    margin-left: 2rem;
+    justify-content: flex-end;
+}
+.design-number-svg{
+    position: relative;
+    top: -8px;
+}
+.desgin-adjust{
+    position: relative;
+    margin-left: 1rem;
+}
+.design-svg{
+   margin-left: 0.8rem !important;
+}
+.design-svg-main{
+    margin-left: 2rem;
+}
+.design-dropdown-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex: 3;
+    height: 2.5rem !important;
+
+}
+.design-percent{
+    flex: 2;
+}
+.design-dropdown-svg{
+    flex: 1;
+}
+.design-dropdown{
+    width: 40%;
+}
+.design_drop svg{
+    height: 20px;
+    width: 20px;
+}
+.options{
+    border: none;
+}
+.design_color{
+    width: 30px;
+    border: none;
+    margin-top: 1rem;
+    background-color: white  !important;
+}
+.design_color_container{
+    display: flex;
+    text-align: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 3rem !important;
+}
+.drop_icon svg{
+    margin-top: 1.5rem;
+}
+.design_line{
+    margin-top: -0.7rem;
+}
+.last_percent h5{
+    margin-top: 20px;
+}
+.design_heading p{
+    margin-top: 1.2rem !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 10px;
+}
+.accordion{
+    padding: 15px 0px;
+}
+.options_color{
+    margin-top: 0.2rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    margin-right: 1rem;
+    font-size: 10px;
+}
+.export{
+    margin: 0.5rem auto 0.5rem 2rem;
+    font-size: 10px;
+}
+.rightbar .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    min-width: auto !important;
+    font-size: small;
+}

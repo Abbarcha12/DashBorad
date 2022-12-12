@@ -1,0 +1,12 @@
+.Main {
+  display: flex;
+}
+.Sidebar {
+  flex: 1;
+}
+.Sidbar {
+  flex: 5;
+}
+body {
+  background-color: #fff;
+}

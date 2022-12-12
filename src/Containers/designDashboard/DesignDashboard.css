@@ -1,0 +1,60 @@
+.MuiTabs-scroller {
+  width: 3rem !important;
+  height: 100vh;
+}
+
+.tools > div {
+  position: static !important;
+  background-color: red !;
+}
+.tabs button {
+  padding: 0px !important;
+}
+.tab:active {
+  color: #5030e5 !important;
+}
+
+.Mui-selected svg {
+  filter: invert(75%) sepia(52%) saturate(4855%) hue-rotate(228deg)
+    brightness(92%) contrast(83%) !important;
+  color: red !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  min-width: 50% !important;
+}
+.css-158t2a6-MuiDrawer-docked .MuiDrawer-paper {
+  width: 18rem !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  color: #1976d2;
+  width: 30px;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  width: 30px !important;
+}
+.rightbar {
+  width: 15rem !important;
+  background-color: #f2f2f2;
+  border-left: 1px solid #292d32;
+}
+.css-auylq4-MuiGrid-root {
+  max-width: 100% !important;
+}
+.rightbar .MuiTabs-scroller {
+  height: 3rem !important;
+}
+.rightbar .MuiTabs-scroller button {
+  padding: 0.5rem 1rem !important;
+  width: 4rem !important;
+}
+.leftSidebar
+  .MuiGrid-root.MuiGrid-container.background-grey.css-11lq3yg-MuiGrid-root {
+  border-left: 1px solid #292d32;
+}
+.css-1ja7469-MuiSlider-root:hover {
+  background-color: transparent !important;
+}
+.css-eg0mwd-MuiSlider-thumb:hover,
+.css-eg0mwd-MuiSlider-thumb.Mui-focusVisible {
+  box-shadow: none !important;
+}

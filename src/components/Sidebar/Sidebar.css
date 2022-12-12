@@ -1,0 +1,46 @@
+.background-grey{
+  background-color: #F2F2F2;
+}
+.gallery{
+    margin: 10px 20px;
+}
+.Sidebar-card-container{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    margin-top: 0px;
+    border-radius: 5px;
+    width: 12.6rem !important;
+    padding: 0px !important;
+}
+.MuiBox-root.css-19kzrtu{
+    padding: 0px !important;
+}
+.search-bar{
+    background-color: #fff;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+.search-bar input{
+    border: none;
+}
+.search-bar input:focus{
+    border: none !important;
+    outline: none !important;
+}
+
+.img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-gallery img{
+    width: 5rem;
+    height: 5rem;
+    margin: 5px 10px;
+}

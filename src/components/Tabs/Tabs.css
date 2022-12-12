@@ -1,0 +1,77 @@
+
+.Design{
+    background-color: white;
+    margin-left: 1rem;
+    border-radius: 20px !important;
+}
+.rightbar .MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer{
+    margin-left: 3.3rem !important; 
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    background-color: white;
+}
+.conatiner_design{
+    border-radius: 20px !important;
+    background-color: white;
+    margin-top: -1rem;
+}
+.bg{
+    background-color: white;
+}
+.rightbar .css-ahj2mt-MuiTypography-root{
+    border-radius: 25px !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 10px !important;
+}
+.css-19kzrtu{
+    padding: 0 !important;
+}
+.rightbar .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    background-color: white !important;
+    border-radius: 4px;
+}
+.css-1aquho2-MuiTabs-indicator{
+    background-color: white !important;
+    border-radius: 20px;
+}
+.css-1gsv261{
+    border-bottom: none !important;
+}
+.service{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hr-icon{
+    margin: 0 !important;
+    width: 80%;
+    text-align: center !important;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+   
+}
+.layer-icon{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 1rem;
+}
+.layer-icon p{
+    margin: 0px;
+}
+.subtext{
+    margin: 0px;
+    padding-left: 10px;
+
+}
+.layer-icons svg{
+    font-size: medium !important;
+    margin: auto 5px;
+}

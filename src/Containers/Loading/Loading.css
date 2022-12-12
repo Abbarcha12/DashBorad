@@ -1,0 +1,28 @@
+.logoContainer {
+  background-color: #dbdbdb;
+}
+.logoContainerDark {
+  background-color: #1e1e1e;
+  height: 100vh;
+}
+.logo {
+  margin: 0px 3rem;
+}
+.logo-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.8326px;
+  color: #28528c;
+}
+.progressbar-container {
+  background-color: #292929;
+  height: 5px !important;
+}
+.progressbar-progress {
+  background-color: #6f6f6f !important;
+  height: 5px !important;
+}
+.progressbarDark .progressbar-progress {
+  background-color: #d9d9d9 !important;
+}

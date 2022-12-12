@@ -1,0 +1,63 @@
+.Notes {
+  background: #f4f1f1;
+  border-radius: 14.2661px;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px !important;
+  padding: 0px 0px;
+  position: relative;
+  margin-top: 3rem;
+}
+.notesImg {
+  position: absolute;
+  top: -20px;
+  background-color: #efefef;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgBgShadow {
+  background-color: rgba(252, 214, 74, 0.7);
+  border-radius: 50px;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notesImg svg {
+  color: #fbcb18;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50px;
+}
+.notesText {
+  padding: 5px 5px;
+  line-height: 30px !important;
+  font-family: 'Inter';
+  font-size: 9.6996px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 8px; */
+  text-align: center;
+  color: #787486;
+  margin-top: 12px;
+}
+.btn-light {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.4828px;
+  line-height: 15px;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 3.56652px;
+  border: none;
+  padding: 10px 10px;
+  width: 80%;
+}

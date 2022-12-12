@@ -1,0 +1,136 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid rgb(230, 227, 227);
+  min-height: 100vh;
+  background-color: white;
+}
+.top {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6439ff;
+}
+hr {
+  height: 0;
+  border: 0.5px solid rgb(230, 227, 227);
+}
+.center {
+  padding-left: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 10px;
+  font-weight: bold;
+  color: #999;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.sidebar li {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  cursor: pointer;
+}
+.sidebar li:hover {
+  background: rgba(80, 48, 229, 0.08);
+  border-radius: 5.34979px;
+  font-weight: bold !important;
+}
+.icon {
+  font-size: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.2661px;
+  line-height: 17px;
+
+  color: #787486 !important;
+}
+.icon1 {
+  font-size: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.2661px;
+  line-height: 17px;
+  margin-left: 5rem;
+
+  color: #787486 !important;
+}
+.icon3 {
+  font-size: 10px !important;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.2661px;
+  line-height: 17px;
+  color: #7ac555 !important;
+}
+.icon5 {
+  font-size: 10px !important;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.2661px;
+  line-height: 17px;
+  color: #ffa500 !important;
+}
+.icon4 {
+  font-size: 10px !important;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.2661px;
+  line-height: 17px;
+  color: #e4ccfd !important;
+}
+
+.hoo {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-weight: bolder;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #787486;
+  margin-left: -1px !important;
+}
+.sidebar span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.2661px;
+  line-height: 17px;
+
+  color: #787486;
+  margin-left: 15px;
+}
+.bottomLi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomLiTwo {
+  display: flex;
+  align-items: center;
+}
+.bottomtextTwo {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14.2661px;
+  line-height: 17px;
+
+  margin-left: 2rem;
+  color: #0d062d;
+}
