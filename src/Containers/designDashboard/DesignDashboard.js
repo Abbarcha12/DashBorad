@@ -95,8 +95,8 @@ export default function DesignDashborad() {
               className="leftSidebar"
               sx={{ flexGrow: 1, display: 'flex' }}
             >
-              <Tabs
-                style={{ backgroundColor: '#ACACAC', paddingTop: "2rem", margin: "0px", height: "100%" }}
+              <Tabs 
+              className="tttt"
                 orientation="vertical"
                 variant="scrollable"
                 value={value}

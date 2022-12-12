@@ -5,19 +5,25 @@
 
 .tools > div {
   position: static !important;
-  background-color: red !;
+}
+
+.tttt {
+  background-color: #acacac;
+  padding-top: 2rem !important;
+  margin: 0px !important;
+  height: 100% !important;
 }
 .tabs button {
-  padding: 0px !important;
+  padding: 2rem !important;
+  background-color: red !important;
 }
 .tab:active {
   color: #5030e5 !important;
 }
 
-.Mui-selected svg {
-  filter: invert(75%) sepia(52%) saturate(4855%) hue-rotate(228deg)
-    brightness(92%) contrast(83%) !important;
-  color: red !important;
+svg {
+  /* filter: black !important; */
+ 
 }
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
   min-width: 50% !important;
