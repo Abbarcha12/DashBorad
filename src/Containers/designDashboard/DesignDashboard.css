@@ -20,7 +20,7 @@
 .Mui-selected svg {
   filter: invert(75%) sepia(52%) saturate(4855%) hue-rotate(228deg)
     brightness(92%) contrast(83%) !important;
-  color: red !important;
+
 }
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
   min-width: 50% !important;

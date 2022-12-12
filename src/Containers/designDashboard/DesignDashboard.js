@@ -96,7 +96,7 @@ export default function DesignDashborad() {
               sx={{ flexGrow: 1, display: 'flex' }}
             >
               <Tabs
-                style={{ backgroundColor: '#ACACAC', paddingTop: "2rem", margin: "0px", height: "100%" }}
+                style={{ backgroundColor: '#ACACAC', padding: "2rem 1rem", margin: "0px", height: "100%" }}
                 orientation="vertical"
                 variant="scrollable"
                 value={value}
