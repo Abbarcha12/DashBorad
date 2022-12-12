@@ -13,7 +13,7 @@
   margin: 0px !important;
   height: 100% !important;
   overflow: visible !important;
-  color: rgb(202, 79, 79) !important;
+  color: white !important;
 }
 .tabs button {
   padding: 2rem !important;
@@ -54,6 +54,7 @@
 .leftSidebar
   .MuiGrid-root.MuiGrid-container.background-grey.css-11lq3yg-MuiGrid-root {
   border-left: 1px solid #292d32;
+  background-color: red !important;
 }
 .css-1ja7469-MuiSlider-root:hover {
   background-color: transparent !important;
