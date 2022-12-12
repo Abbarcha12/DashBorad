@@ -14,7 +14,7 @@
   color: #fff !important;
 }
 .tab svg {
-  filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1) !important;
 }
 .tab:focus svg {
   filter: invert(75%) sepia(52%) saturate(4855%) hue-rotate(228deg)
