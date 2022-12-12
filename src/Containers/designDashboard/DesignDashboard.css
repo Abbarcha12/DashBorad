@@ -13,14 +13,12 @@
 .tabs {
   color: #fff !important;
 }
-.tab:active {
-  color: #5030e5 !important;
+.tab svg {
+  filter: brightness(0) invert(1);
 }
-
-.Mui-selected svg {
+.tab:focus svg {
   filter: invert(75%) sepia(52%) saturate(4855%) hue-rotate(228deg)
     brightness(92%) contrast(83%) !important;
-
 }
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
   min-width: 50% !important;
