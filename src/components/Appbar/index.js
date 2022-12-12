@@ -25,7 +25,7 @@ import FileCopyOutlinedIcon from '@material-ui/icons/FileCopyOutlined';
 import SaveOutlinedIcon from '@material-ui/icons/SaveOutlined';
 import CollectionsOutlinedIcon from '@material-ui/icons/CollectionsOutlined';
 
-import Img from '../../assets/imgs/profile.jpg';
+// import Img from '../../assets/imgs/';
 import Plan from './../../assets/imgs/plan.png';
 import Undo from './../../assets/imgs/undo.png';
 import Redo from './../../assets/imgs/redo.png';
@@ -99,7 +99,7 @@ function Navbar() {
                         </Typography>
                     </Box>
                     <Box className="iconstyle">
-                        <List className="iconstyle2">
+                        <List>
                             <ListItem style={{ display: 'flex', textAlign: 'center' }} >
                                 <div>
                                     <ListItemText
@@ -292,7 +292,7 @@ function Navbar() {
                     </Box>
                     <Box sx={{ flexGrow: 0 }}>
                         <IconButton id="demo-customized-profile" onClick={handleClick} sx={{ p: 0 }}>
-                            <Avatar alt="Remy Sharp" src={Img} />
+                            <Avatar alt="Remy Sharp" />
                             <KeyboardArrowDownIcon className="arrowDown" />
                         </IconButton>
                         <StyledMenu

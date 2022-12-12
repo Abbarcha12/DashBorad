@@ -66,34 +66,30 @@ export default function Overview() {
         return (
             <React.Fragment>
                 <Box>
-                    <Grid container>
-                        <Grid item lg={3} md={3} sm={3} className='overview-container'>
-                            <div className='overview-head'>
-                                <h3>Overview</h3>
-                                <img style={{width:'70%'}} src={Img} alt='img'/>
-                            </div>
-                            <Grid className='overview-text'>
-                                <Box lg={{width: 200}} md={{width: 200}} sx={{ width: 250 }}>
-                                    <Box>
-                                        <Typography gutterBottom><span className="side-text">Zoom</span></Typography>
-                                         <IconSlider
-                                            slots={{ thumb: SliderComponent }}
-                                            defaultValue={[30]}
-                                        />
-                                    </Box>
-                                </Box>
-                                <Box lg={{width: 200}} md={{width: 200}} sx={{ width: 250 }}>
-                                    <Box >
-                                        <Typography gutterBottom><span className="side-text">Rotate</span></Typography>
-                                          <IconSlider
-                                            slots={{ thumb: SliderComponent1 }}
-                                            defaultValue={[30]}
-                                        />
-                                    </Box>
-                                </Box>
-                            </Grid>
-                        </Grid>
-                    </Grid>
+                  <div className='overview-head'>
+                      <h3>Overview</h3>
+                      <img style={{width:'70%'}} src={Img} alt='img'/>
+                  </div>
+                  <Grid className='overview-text'>
+                      <Box lg={{width: 200}} md={{width: 200}} sx={{ width: 250 }}>
+                          <Box>
+                              <Typography gutterBottom><span className="side-text">Zoom</span></Typography>
+                                <IconSlider
+                                  slots={{ thumb: SliderComponent }}
+                                  defaultValue={[30]}
+                              />
+                          </Box>
+                      </Box>
+                      <Box lg={{width: 200}} md={{width: 200}} sx={{ width: 250 }}>
+                          <Box >
+                              <Typography gutterBottom><span className="side-text">Rotate</span></Typography>
+                                <IconSlider
+                                  slots={{ thumb: SliderComponent1 }}
+                                  defaultValue={[30]}
+                              />
+                          </Box>
+                      </Box>
+                  </Grid>
                 </Box>
             </React.Fragment>
         );
