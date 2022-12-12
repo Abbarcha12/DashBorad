@@ -65,7 +65,7 @@ const IconSlider = styled(Slider)(({ theme }) => ({
 export default function Overview() {
         return (
             <React.Fragment>
-                <Box>
+                <Box className="bnbn">
                   <div className='overview-head'>
                       <h3>Overview</h3>
                       <img style={{width:'70%'}} src={Img} alt='img'/>
