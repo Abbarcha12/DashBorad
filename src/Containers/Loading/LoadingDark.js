@@ -16,7 +16,7 @@ function LoadingDark() {
     <div className="logoContainerDark" >
       <Box sx={{ flexGrow: 1 }}>
         <Grid container justifyContent="center" alignItems="center" height="100vh">
-          <Link to="/dashborad">
+          <Link to="/Landing">
             <Grid item display="flex" flexDirection="column" justifyContent="center">
               <img src={Logo} alt="logo" className='logo' />
               <h2 className='logo-text'>American Wood Cabinets</h2>

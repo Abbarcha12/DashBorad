@@ -74,7 +74,7 @@ function Design() {
                     </Box>
                 </Box>
                 <Box className='parent-card'>
-                    <Link to="/Login">
+                    <Link to="/tool">
                         <Box className='card-add'>
                             <a sx={{ color: "black" }}> <AddIcon className='icon-add' />
                                 <h2 className='design-text'>Create New Design</h2>

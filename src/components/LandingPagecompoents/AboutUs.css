@@ -1,0 +1,19 @@
+.aboutUs img {
+    height: 75%;
+    width: 95%;
+}
+.aboutUS_title {
+    color:  #28528C;
+    margin-top: 10px;
+}
+.aboutUS_desc {
+    font-size: 17px;
+    color: #817f7f;
+
+}
+
+@media screen and (max-width: 900px){
+    .css-1w7ngrt-MuiGrid-root>.MuiGrid-item{
+        margin: 0px 30px !important;
+    }
+}

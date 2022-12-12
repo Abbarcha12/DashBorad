@@ -1,0 +1,69 @@
+.teamContact {
+    margin: 0;
+}
+.team_pic {
+    display: flex;
+}
+.Contact_title {
+    color: #28528C;
+}
+.teamContact_title {
+    color: #28528C;
+    margin-left: 14px !important;
+}
+.teamContact_subtitle {
+    text-align: center;
+    position: relative;
+    left: 20px;
+    font-size: 15px;
+}
+.teamContact_subtitle span {
+    color: #28528C;
+    margin-left: 24px !important;
+
+}
+.team_pic img {
+    width: 90%;
+}
+.teamContact_desc {
+    text-align: center !important;
+    position: relative;
+    justify-content: center !important;
+    top: 10px;
+}
+.input1 {
+    position: relative;
+    top: 1.4rem;
+    width: 100%;
+}
+.textfield {
+    width: 100%;
+    position: relative;
+    top: 1.4rem;
+}
+
+@media screen and (max-width: 900px){
+    .teamContact{
+        margin: 0px 30px !important;
+        margin-top: 20px !important;
+    }
+    .teamContact_subtitle {
+        position: relative;
+         right: 28px;
+    }
+    .teamContact_subtitle span {
+        position: relative;
+         right: 29px;
+         font-size: 14px;
+    }
+    .contact_form {
+        margin-top: 20px !important;
+    }
+}
+.last_arrow {
+    margin-top: 2rem !important;
+    float: right;
+    color: #232222;
+    text-decoration: none;
+    cursor: pointer;
+}

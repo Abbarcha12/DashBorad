@@ -1,0 +1,56 @@
+.galley_section {
+    background-color: #D9D9D9;
+}
+.gallery {
+    text-align: center;
+}
+.gallery_title {
+    color: #28528C;
+}
+.title_desc {
+    color: #8b8a8a;
+    position: relative;
+    top: 8px;
+}
+
+.bedroom_title {
+    color: #28528C;
+    text-align: center;
+    margin-top: 3rem !important;
+}
+.bedroom-section img {
+    width: 100%;
+}
+.bedroom-section img:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.kitchen_title {
+    color: #28528C;
+    text-align: center;
+    margin-top: 2rem !important;
+}
+.kitchen-section img {
+    width: 100%;
+}
+.kitchen-section img:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.bathroom_title {
+    color: #28528C;
+    text-align: center;
+    margin-top: 2rem !important;
+}
+.bathroom-section img {
+    width: 100%;
+}
+.bathroom-section img:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+.bedroom_carusel {
+    height: 20%;
+}

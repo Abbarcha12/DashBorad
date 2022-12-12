@@ -30,12 +30,12 @@ export default function Login() {
             <Input
               label="Password"
             />
-          <Link to="/tool">
+            <Link to="/dashborad">
               <Button
                 btn="Login"
                 class="button"
               />
-          </Link>
+            </Link>
             <Link to="/Signup">
               <Button
                 btn="Create New Account"
