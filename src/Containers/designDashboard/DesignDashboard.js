@@ -60,7 +60,6 @@ function a11yProps(index) {
   return {
     id: `vertical-tab-${index}`,
     'aria-controls': `vertical-tabpanel-${index}`,
-    'color':`red`
   };
 }
 
@@ -96,8 +95,8 @@ export default function DesignDashborad() {
               className="leftSidebar"
               sx={{ flexGrow: 1, display: 'flex' }}
             >
-              <Tabs 
-              className="tttt"
+              <Tabs
+                style={{ backgroundColor: '#ACACAC', paddingTop: "2rem", margin: "0px", height: "100%" }}
                 orientation="vertical"
                 variant="scrollable"
                 value={value}
