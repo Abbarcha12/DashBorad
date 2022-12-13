@@ -3,6 +3,7 @@ import * as React from 'react';
 // import css file
 import './Navbar.css';
 
+
 // import images
 import Logo from '../../assets/landingpageassest/logo.png';
 import Bg from '../../assets/landingpageassest/2.png';
@@ -136,7 +137,7 @@ function DrawerAppBar(props) {
                 <h1>Create <span className='description'>Unique  Designs</span>  According  to your Needs</h1>
                 <h2>We help you to create your own style</h2>
                 <p className='para-text'>Planning, Renovations and New Creations.</p>
-                <p className='para-text1'>Be a part of our Community <img width={60} src={Arrow} alt='img' /> </p>
+                <Link to="/Login" className='para-text1'><p>Be a part of our Community <img width={60} src={Arrow} alt='img' /> </p> </Link>
               </div>
             </Typography>
           </Grid>
