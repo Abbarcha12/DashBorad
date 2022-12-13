@@ -13,14 +13,14 @@ function Overview() {
         <h3 className='overview_title'>Overview</h3>
         <img src={overviewImg} alt="overviewImg" />
       </div>
-     <div className='zoomRotate'>
-      <div className="zoom">
-       <ZoomButton />
+      <div className='zoomRotate'>
+        <div className="zoom">
+          <ZoomButton />
+        </div>
+        <div className="zoom">
+          <RotateButton />
+        </div>
       </div>
-      <div className="zoom">
-       <RotateButton />
-      </div>
-     </div>
     </>
   )
 }
