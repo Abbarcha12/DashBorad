@@ -1,5 +1,4 @@
-import { ImportExport } from "@material-ui/icons";
-import { useState } from "react";
+
 import { Routes, Route } from "react-router-dom";
 import Dashborad from "./Containers/Dashborad/index"
 import Login from "./Containers/Form/Login"
@@ -14,10 +13,10 @@ function App() {
   return (
     < >
       <Routes>
+
         <Route path="/Landing" element={<Landing />} />
         <Route path="/" element={<Loading />} />
-
-        <Route path="/tool" element={<DesignDashborad />} />
+        <Route path="/tool/*" element={<DesignDashborad />} />
         <Route path="/dashborad" element={<Dashborad />} />
         <Route path="/dark" element={<LoadingDark />} />
         <Route path="/Login" element={<Login />} />

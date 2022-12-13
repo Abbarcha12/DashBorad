@@ -1,12 +1,12 @@
 import React from 'react'
-import SliderComponent from "../../components/Overview/index"
+import Overview from "../../components/Overview/Overview"
 import Tabs from '../../components/Tabs/Tabs'
 
 function Rightbar() {
   return (
-    <div>
-        <SliderComponent />
-        <Tabs/>
+    <div className=''>
+      <Overview />
+      <Tabs />
     </div>
   )
 }

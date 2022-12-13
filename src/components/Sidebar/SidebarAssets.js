@@ -19,7 +19,7 @@ const SidebarAssets = (props) => {
         
         </Box>
         <div className='Sidebar-card-container'>
-            <h3 className='gallery'>{props.title}</h3>
+            <h6 className='gallery'>{props.title}</h6>
             <Box className='gallery-img'>
               <div className='img-gallery'>
                   <img src={props.img1} alt="" className='gallery-card-img' />
