@@ -2,7 +2,7 @@
   height: 80px;
 }
 .MuiTabs-scroller {
-  height: 100vh !important;
+  /* height: 100% !important; */
 }
 .css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
   position: static !important;
@@ -43,9 +43,9 @@
   padding: 0.5rem 1rem !important;
   width: 4rem !important;
 }
-.leftSidebar
-  .MuiGrid-root.MuiGrid-container.background-grey.css-11lq3yg-MuiGrid-root {
+.leftSidebar{
   border-left: 1px solid #292d32;
+  margin-top: 72px;
 }
 .css-1ja7469-MuiSlider-root:hover {
   background-color: transparent !important;
