@@ -1,3 +1,10 @@
+.design_content {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 7px !important;
+    position: relative;
+    bottom: 15.6px;
+}
 .design-container{
     background-color: white;
 
@@ -66,6 +73,8 @@ hr{
 }
 .design-percent{
     flex: 2;
+    font-size: 12px !important;
+    margin-top: 20px !important;
 }
 .design-dropdown-svg{
     flex: 1;
@@ -81,9 +90,11 @@ hr{
     border: none;
 }
 .design_color{
-    width: 30px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
     border: none;
-    margin-top: 1rem;
+    margin-top: 1.3rem;
     background-color: white  !important;
 }
 .design_color_container{
@@ -98,10 +109,11 @@ hr{
     margin-top: 1.5rem;
 }
 .design_line{
-    margin-top: -0.7rem;
+    margin-top: 0.2rem;
 }
 .last_percent h5{
     margin-top: 20px;
+    font-size: 14px;
 }
 .design_heading p{
     margin-top: 1.2rem !important;
@@ -122,7 +134,7 @@ hr{
     font-size: 10px;
 }
 .export{
-    margin: 0.5rem auto 0.5rem 2rem;
+    margin: 0.5rem auto 0.5rem 2.3rem;
     font-size: 10px;
 }
 .rightbar .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{

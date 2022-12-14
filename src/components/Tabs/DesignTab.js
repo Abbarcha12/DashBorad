@@ -1,20 +1,14 @@
     import React from 'react'
     import Box from '@mui/material/Box';
     import FormControl from '@mui/material/FormControl';
-    import Select, { SelectChangeEvent } from '@mui/material/Select';
    
     import './DesignTab.css'
 
     function DesignTab() {
-        const [age, setAge] = React.useState('');
-
-  const handleChange = (event: SelectChangeEvent) => {
-    setAge(event.target.value)
-  };
-
 
     return (
-        <div >
+        < > 
+        <div className='design_content'>
             <div className='design-icon'>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.8 16C0.573333 16 0.383467 15.9232 0.2304 15.7696C0.0768001 15.6165 0 15.4267 0 15.2V0.8C0 0.573333 0.0768001 0.3832 0.2304 0.2296C0.383467 0.0765333 0.573333 0 0.8 0C1.02667 0 1.2168 0.0765333 1.3704 0.2296C1.52347 0.3832 1.6 0.573333 1.6 0.8V15.2C1.6 15.4267 1.52347 15.6165 1.3704 15.7696C1.2168 15.9232 1.02667 16 0.8 16ZM4.4 6.4C4.06667 6.4 3.78347 6.2832 3.5504 6.0496C3.3168 5.81653 3.2 5.53333 3.2 5.2C3.2 4.86667 3.3168 4.58347 3.5504 4.3504C3.78347 4.1168 4.06667 4 4.4 4H14.8C15.1333 4 15.4165 4.1168 15.6496 4.3504C15.8832 4.58347 16 4.86667 16 5.2C16 5.53333 15.8832 5.81653 15.6496 6.0496C15.4165 6.2832 15.1333 6.4 14.8 6.4H4.4ZM4.4 12C4.06667 12 3.78347 11.8832 3.5504 11.6496C3.3168 11.4165 3.2 11.1333 3.2 10.8C3.2 10.4667 3.3168 10.1835 3.5504 9.9504C3.78347 9.7168 4.06667 9.6 4.4 9.6H10C10.3333 9.6 10.6165 9.7168 10.8496 9.9504C11.0832 10.1835 11.2 10.4667 11.2 10.8C11.2 11.1333 11.0832 11.4165 10.8496 11.6496C10.6165 11.8832 10.3333 12 10 12H4.4Z" fill="#5A5A5A"/>
@@ -146,13 +140,7 @@
                     </div>
                     <div className='design_line'>
                         <h4>___</h4>
-                        {/* <FormControl fullWidth>
-                                <select className='options' id="select">
-                                    <option value="saab"></option>
-                                    <option value="fiat"></option>
-                                    <option value="audi"></option>
-                                </select>
-                            </FormControl> */}
+                     
                     </div>
                    
                 </div>
@@ -183,7 +171,8 @@
                 <hr />
                 </div>
             </div>
-        </div>
+            </div>
+        </>
 
     )
     }
