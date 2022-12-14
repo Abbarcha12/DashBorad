@@ -14,7 +14,7 @@ function MiniCard() {
         </div>
         <div className='notesText'>
           <h2>Notes</h2>
-          <h3>We don’t have any notice for you, till then you can share your thoughts with your peers.</h3>
+          <h5>We don’t have any notice for you, till then you can share your thoughts with your peers.</h5>
           <button className="btn-light">Create Notes</button>
         </div>
       </div>
