@@ -7,10 +7,34 @@ body {
   position: relative;
   top: -10px !important;
 }
-.sidbarIcons a button:focus {
+.sidbarIcons a svg:active {
   color: rgb(34, 73, 245) !important;
 }
 .leftSidebar {
-  /* height: 100vh !important; */
+  height: 100ch !important;
+  background-color: #f2f2f2;
   border-right: 1px solid rgb(11, 11, 12) !important;
+}
+
+@media (min-width: 320px) and (max-width: 758px) {
+  .sidbarIcons a svg {
+    margin-left: 8px !important;
+    margin-top: -30px !important;
+  }
+
+  .sidbarIcons {
+    height: 80px;
+  }
+  .leftSidebar {
+    height: auto !important;
+  }
+  .middlesection {
+    height: 50vh !important;
+  }
+  .rightbar1 {
+    display: hidden !important;
+  }
+}
+.middlesection {
+  border-top: 1px solid black;
 }

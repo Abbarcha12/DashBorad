@@ -1,25 +1,17 @@
 .designDashboard .navbar {
   height: 80px;
 }
-.MuiTabs-scroller {
-  /* height: 100% !important; */
-}
+
 .css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
   position: static !important;
 }
-.css-h4y409-MuiList-root {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-}
-.css-158t2a6-MuiDrawer-docked .MuiDrawer-paper {
-  width: 15rem !important;
-}
+
 .sidbarIcons {
   background-color: #acacac !important;
   padding-top: 3rem;
   width: 2.5rem;
 }
-.sidbarIcons button {
+.sidbarIcons svg {
   margin: 5px auto !important;
   color: white !important;
   background-color: transparent;
@@ -32,25 +24,4 @@
   background-color: #f2f2f2;
   border-left: 1px solid #292d32;
   margin-top: 10px !important;
-}
-.css-auylq4-MuiGrid-root {
-  max-width: 100% !important;
-}
-.rightbar .MuiTabs-scroller {
-  height: 3rem !important;
-}
-.rightbar .MuiTabs-scroller button {
-  padding: 0.5rem 1rem !important;
-  width: 4rem !important;
-}
-.leftSidebar{
-  border-left: 1px solid #292d32;
-  margin-top: 72px;
-}
-.css-1ja7469-MuiSlider-root:hover {
-  background-color: transparent !important;
-}
-.css-eg0mwd-MuiSlider-thumb:hover,
-.css-eg0mwd-MuiSlider-thumb.Mui-focusVisible {
-  box-shadow: none !important;
 }
